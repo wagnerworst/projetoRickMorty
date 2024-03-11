@@ -1,0 +1,88 @@
+/*RESET CSS*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0px;
+	padding: 0px;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/*FIM RESET CSS */
+
+header
+{
+    text-align: center;
+    font-size: 60PX;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1%;
+    background-color: rgb(77, 77, 77);
+    color: white;
+    font-weight: bold;
+}
+main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section
+{
+    margin-top: 12px;
+    padding: 25px;
+}
+#inputBuscar
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(128, 128, 128);
+    justify-content: center;
+    width: 350px;
+    height: 140px;
+    border: 3px;
+    border-radius: 25px;
+    border-color: black;
+    border-style: solid;
+}
+#buttonBuscar
+{
+    height: 58px;
+    width: 205px;
+    font-size: 25px;
+}
+#codigoPersonagem
+{
+    height: 60px;
+    width: 340px;
+    font-size: 25px;
+    text-align: center;
+}
+#retornoApi
+{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(128, 128, 128);
+    width: 430px;
+    border-radius: 25px;
+    border-width: 60px;
+    border-color: black;
+    border: 3px;
+    border-style: solid;
+    font-size: 50PX;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
